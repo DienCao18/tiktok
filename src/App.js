@@ -1,14 +1,11 @@
 //Layout
 
-
-
 import { Fragment } from 'react';
 import {BrowserRouter as Router, Routes , Route} from 'react-router-dom'
 import { publicRoutes } from './routes'; 
 import {Defaultlayout} from '~/layout';
 
 function App() {
-  <h1>djsfdsnfj</h1>
   return (
     <Router>
       <div className="App">

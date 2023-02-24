@@ -24,8 +24,18 @@
 
 }
 
-.search {
+.search , .search-result {
     width: 346px;
+
+}
+
+.search-title {
+    color: rgba(22, 24, 35, .5);
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 12x;
+}
+.search {
     height: var(--search-height);
     background-color: rgba(22, 24, 35, .06);
     border-radius: 92px;
