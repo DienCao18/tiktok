@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
 
+  
 }
 
 .inner {
@@ -94,4 +95,8 @@
     &:active {
         background-color: rgba(22, 24, 35,.06);
     }
+}
+
+.custom-login {
+    color: red;
 }
