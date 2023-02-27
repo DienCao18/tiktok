@@ -39,7 +39,7 @@ function Menu({children, items= [], onChange}) {
     return ( 
                     <Tippy 
                     interactive
-                    visible
+                   
                     placement='bottom-end'
                     render={attrs=> (
                         <div className={cx("menu-list")} tabIndex="-1" {...attrs}>
