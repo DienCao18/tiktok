@@ -15,6 +15,10 @@
     font-weight: 500;
     padding: 11px 16px;
 
+    &.separate {
+        border-top: 5px solid rgba(22,24,35,.03);
+    }
+
     &:hover {
         background-color: rgba(22,24,35,.03)
     }
